@@ -1,0 +1,56 @@
+.register{
+    border: 3px solid;
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    margin-top: 8%;
+    border-radius: 0.5rem;
+
+}
+
+
+.UsernameInput{
+    margin-bottom: 10px;
+    width: 250px;
+    color: black;
+    height: 25px
+}
+
+.PasswordInput{
+    margin-bottom: 10px;
+    width: 250px;
+    color: black;
+    height: 25px
+}
+
+.EmailInput{
+    margin-bottom: 10px;
+    width: 250px;
+    color: black;
+    height: 25px
+}
+
+.AddressInput{
+    margin-bottom: 10px;
+    width: 250px;
+    color: black;
+    height: 25px
+}
+
+.submitButton{
+    display: block;
+    margin: 1rem auto;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 0.25rem; 
+
+}
