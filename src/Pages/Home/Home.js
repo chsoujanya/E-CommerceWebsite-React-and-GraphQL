@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <>
-    <nav class="navbar navbar-dark bg-dark navbar-fixed-top">SHOP SPECTRUM
+    <nav class ="navbar navbar-dark bg-dark navbar-fixed-top"><h4 className = "neon">SHOP SPECTRUM</h4>
     <div className = "home-container">
           <ul className = "ul">
             <li className = "li">

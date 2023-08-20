@@ -1,6 +1,4 @@
-
-
-.login{
+.login {
     border: 3px solid;
     margin: auto;
     width: 20%;
@@ -15,44 +13,39 @@
 }
 
 
-.EmailInput{
+.EmailInput {
     margin-bottom: 10px;
     width: 250px;
     color: black;
     height: 25px
-
 }
 
-.PasswordInput{
+.PasswordInput {
     margin-bottom: 5px;
     width: 250px;
     height: 25px;
     margin-top: 5%
-
 }
 
-.submitButton{
+.submitButton {
     display: block;
     margin: 1rem auto;
-    background-color: #007bff; 
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
-    border-radius: 0.25rem; 
+    border-radius: 0.25rem;
 
 }
 
-.link{
-    
-}
 
 
 @media (max-width: 768px) {
     .login {
-        width: 20%; 
+        width: 20%;
         top: 55%;
     }
 }
