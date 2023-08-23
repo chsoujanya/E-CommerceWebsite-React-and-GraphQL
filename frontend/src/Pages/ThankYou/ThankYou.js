@@ -23,7 +23,7 @@ const ThankYou = () => {
   const { user_id } = location.state || {};
 
   const [showOrderDetails, setShowOrderDetails] = useState(false);
-  
+
 
 
 
@@ -37,7 +37,7 @@ const ThankYou = () => {
 
 
   const handleShowOrderDetails = () => {
-    
+
     setShowOrderDetails(true);
   };
 
@@ -74,7 +74,7 @@ const ThankYou = () => {
         </ul>
       </nav>
       <h1 className='ThankYou'>Thank You for Your Order!</h1>
-      
+
 
 
 
@@ -110,21 +110,18 @@ const ThankYou = () => {
                         
                       </li>
                       
-
                     </div>
                   ))}
                 </ul>
               )}
             </div>
           )}
-
-
           <button className="closeButton" onClick={handleCloseOrderDetails}>
             Close
           </button>
         </Modal>
       )} */}
-       
+
     </div>
   );
 };
